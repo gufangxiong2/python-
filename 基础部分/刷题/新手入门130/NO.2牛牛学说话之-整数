@@ -43,3 +43,10 @@
 import sys
 a = int(sys.stdin.readline().strip())
 print(a)
+sys 是 Python 的标准库模块，sys.stdin 代表标准输入流，也就是程序运行时从键盘或文件传入的数据。
+你可以把它想象成一个文件对象，可以一行一行地读。
+sys.stdin.readline()
+从标准输入中读取一行，返回一个字符串。
+注意：它会把行尾的换行符 \n 也读进来。
+ .strip()
+这是字符串的一个方法，用来去掉字符串首尾的空白字符，包括空格、制表符、换行符等。
